@@ -1,12 +1,7 @@
 import java.util.*;
 
+//Leader
 public class Calculator {
-
-	//Leader
-	public static void main(String[] args) {
-		
-		
-	}
 	
 	//Programmer A
 	public double add(double x, double y){
@@ -33,9 +28,9 @@ public class Calculator {
 		double result;
 		result = x/y;
 		
-		if(y==0)
+		if(y==0){
 			System.out.println("ERROR! Not devision by 0. ");
-		
+		}
 		return result;
 	}
 	
@@ -44,8 +39,9 @@ public class Calculator {
 		double result;
 		result = x%y;
 		
-		if(y==0)
+		if(y==0){
 			System.out.println("ERROR! Not devision by 0. ");
+		}
 		
 		return result;
 	}
@@ -59,7 +55,6 @@ public class Calculator {
 		String URI = "https://github.com/seon999/Lab4_OOP.git";
 		String tostring = "Member name, IDs : " + Leader + "\n\t\t" + ProgrammerA + "\n\t\t" + ProgrammerB 
 				+ "\nURI : " + URI;
-		System.out.print(tostring);
 		
 		return tostring;
 	}
