@@ -16,7 +16,10 @@ public class Calculator {
 	
 	//Programmer B
 	public double subtract(double x, double y){
-		return 0;
+		double result;
+		result = x-y;
+		
+		return result;
 	}
 	
 	//Programmer A
@@ -27,12 +30,24 @@ public class Calculator {
 	
 	//Programmer B
 	public double divide(double x, double y){
-		return 0;
+		double result;
+		result = x/y;
+		
+		if(y==0)
+			System.out.println("ERROR! Not devision by 0. ");
+		
+		return result;
 	}
 	
 	//Programmer B
 	public double remainder(double x, double y){
-		return 0;
+		double result;
+		result = x%y;
+		
+		if(y==0)
+			System.out.println("ERROR! Not devision by 0. ");
+		
+		return result;
 	}
 	
 	//Programmer A
