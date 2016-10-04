@@ -16,7 +16,7 @@ public class Calculator {
 	
 	//Programmer B
 	public double subtract(double x, double y){
-		return -1;
+		return 0;
 	}
 	
 	//Programmer A
