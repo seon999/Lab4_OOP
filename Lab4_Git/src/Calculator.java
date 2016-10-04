@@ -33,8 +33,8 @@ public class Calculator {
 	}
 	
 	//Programmer A
-	public double toString(double x, double y){
-		return 0;
+	public String toString(){
+		return null;
 	}
 
 }
